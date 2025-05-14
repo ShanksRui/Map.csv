@@ -22,7 +22,7 @@ public class Program {
 	System.out.print("Enter the full file path");
 	String path = sc.nextLine();
 	System.out.print("enter salary");
-    Double salary = Double.parseDouble(sc.nextLine());
+        Double salary = Double.parseDouble(sc.nextLine());
     
 	try(BufferedReader br = new BufferedReader(new FileReader(path))){
 		String line;
